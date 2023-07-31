@@ -20,3 +20,4 @@ pylint-django
 PyMySQL
 setuptools
 uritemplate
+user-friendly-id
