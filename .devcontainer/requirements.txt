@@ -18,6 +18,7 @@ fontawesomefree
 httpie
 pylint-django
 PyMySQL
+requests
 setuptools
 uritemplate
 user-friendly-id
