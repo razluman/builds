@@ -1,3 +1,4 @@
 FROM python:3.8
 ENV PYTHONUNBUFFERED 1
-RUN python -m pip install --upgrade pip
+RUN pip config set global.trusted-host "pypi.org files.pythonhosted.org pypi.python.org" &&\
+    python -m pip install --upgrade pip
