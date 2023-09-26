@@ -1,5 +1,5 @@
 {
-    "name": "Python 3.8 for Django",
+    "name": "Python 3.11 for Django",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
