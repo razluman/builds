@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  change_this_name:
+    build: 
+      context: ./razmga
+      dockerfile: Dockerfile.dev
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./razmga/:/usr/src/app/
+    ports:
+      - 8000:8000
